@@ -1,4 +1,4 @@
-import webbrowser,sys,pyperclip,requests
+import sys,requests
 from bs4 import BeautifulSoup
 from googlesearch import search
 
