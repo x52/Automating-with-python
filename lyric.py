@@ -6,7 +6,7 @@ from googlesearch import search
 print("Enter the song name and artist")
 song_name = input()
 
-query = song_name + "metrolyrics"
+query = song_name + " metrolyrics"
 for j in search(query, tld="com", num=1, stop=1, pause=2):
 	url = j
 
